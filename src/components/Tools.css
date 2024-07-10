@@ -1,0 +1,26 @@
+.tool-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tool-item {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+  }
+  
+  .tool-item:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .tool-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
